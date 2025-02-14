@@ -2,5 +2,5 @@ onload = () => {
     const c = setTimeout(() => {
       document.body.classList.remove("not-loaded");
       clearTimeout(c);
-    }, 999999999);
+    }, 172800000);
   };
